@@ -1,1 +1,51 @@
-/* Your code here */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    border: solid black 1px;
+    display: none;
+    position: unset;
+    font-size: 40px;
+}
+
+board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "zeero one two"
+    "three four five"
+    "six seven eight";
+}
+
+#square-0 {
+    grid-area: zeero
+}
+#square-1 {
+    grid-area: one
+}
+#square-2 {
+    grid-area: two
+}
+#square-3 {
+    grid-area: three
+}
+#square-4 {
+    grid-area: four
+}
+#square-5 {
+    grid-area: five
+}
+#square-6 {
+    grid-area: six
+}
+#square-7 {
+    grid-area: seven
+}
+#square-8 {
+    grid-area: eight
+}
