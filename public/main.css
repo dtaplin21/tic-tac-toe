@@ -11,14 +11,29 @@ h1 {
     font-size: 40px;
 }
 
-board {
+#game-board {
     display: grid;
+    height:606px;
+    width: 606px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     "zeero one two"
     "three four five"
     "six seven eight";
+    background-color: black;
+    
+    order: 0;
+    
+    gap: 3px;
+}
+
+.square {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    order: 1;
+
 }
 
 #square-0 {
