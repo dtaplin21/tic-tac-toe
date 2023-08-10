@@ -5,8 +5,7 @@ body {
     justify-content: center;
 }
 
-header {
-    border: solid black 1px;
+h1 {
     display: none;
     position: unset;
     font-size: 40px;
